@@ -1,5 +1,6 @@
+//
 //  ViewController.swift
-//  Indicer
+//  indicer
 //
 //  Created by Jul3ia on 2/12/16.
 //  Copyright © 2016 Island Pixel Works. All rights reserved.
@@ -11,7 +12,7 @@ class ViewController: UIViewController {
     
     var index: Int!
     let indices: [String] = ["one", "two", "three"]
-
+    
     @IBOutlet weak var indexLabel: UILabel!
     @IBOutlet weak var numberField: UITextField!
     @IBOutlet weak var indexSelectorOutlet: UISegmentedControl!
@@ -130,3 +131,4 @@ class ViewController: UIViewController {
         }
     }
 }
+

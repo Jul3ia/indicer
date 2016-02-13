@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Indicer
+//  indicer
 //
 //  Created by Jul3ia on 2/12/16.
 //  Copyright © 2016 Island Pixel Works. All rights reserved.
@@ -31,6 +31,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
     }
-    
 }
 

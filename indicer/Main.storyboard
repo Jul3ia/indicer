@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Indicer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="indicer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -31,7 +31,7 @@
                                 </segments>
                                 <color key="tintColor" red="0.90534357730000004" green="0.90534357730000004" blue="0.90534357730000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="selectIndex:" destination="BYZ-38-t0r" eventType="valueChanged" id="7Ah-VH-ruM"/>
+                                    <action selector="selectIndex:" destination="BYZ-38-t0r" eventType="valueChanged" id="rDT-ib-FJU"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Index: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEz-k3-GtT">
@@ -67,7 +67,7 @@
                                     <color key="titleColor" red="0.90534357730000004" green="0.90534357730000004" blue="0.90534357730000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="incrementIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f9A-AU-2FO"/>
+                                    <action selector="incrementIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxu-tY-erx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVH-MH-5Pr">
@@ -81,7 +81,7 @@
                                     <color key="titleColor" red="0.90534357730000004" green="0.90534357730000004" blue="0.90534357730000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="decrementIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6mp-A2-jI2"/>
+                                    <action selector="decrementIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vGR-uQ-Ftv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5R-VQ-ds3">
@@ -95,7 +95,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Calculate"/>
                                 <connections>
-                                    <action selector="calculateIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xqF-Hn-zhR"/>
+                                    <action selector="calculateIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="itk-Om-dVi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -116,9 +116,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="indexLabel" destination="JEz-k3-GtT" id="40o-6C-msQ"/>
-                        <outlet property="indexSelectorOutlet" destination="Q1l-VV-kPG" id="hRo-gi-TUx"/>
-                        <outlet property="numberField" destination="6Mp-jE-heh" id="9wD-ux-94W"/>
+                        <outlet property="indexLabel" destination="JEz-k3-GtT" id="8TF-QX-9yR"/>
+                        <outlet property="indexSelectorOutlet" destination="Q1l-VV-kPG" id="RBh-rI-Ywq"/>
+                        <outlet property="numberField" destination="6Mp-jE-heh" id="bV0-Ce-TMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

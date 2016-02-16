@@ -10,4 +10,5 @@ It slices! It *indices*!! It even makes Jul3ienne fries!
 
 It's also a universal Swift 2 app. So that's pretty cool :)
 
+Happy iterating!
 -Jul3ia
